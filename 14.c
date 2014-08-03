@@ -22,7 +22,6 @@ int main() {
         }
         
         if(count>maxCount) {
-            printf("new max %d at %d\n",maxCount,maxCountAt);
             maxCount=count;
             maxCountAt=iter;
         }
