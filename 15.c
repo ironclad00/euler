@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define TARGET 2
+#define TARGET 20
+
+//this algorithm only runs adequately on TARGET<=16
 
 void transverse(int ***gridArray, int i, int j, double *numPaths);
 
