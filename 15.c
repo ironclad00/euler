@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define TARGET 20
+#define TARGET 3
 
 //this algorithm only runs adequately on TARGET<=16
 
